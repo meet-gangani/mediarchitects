@@ -1,38 +1,42 @@
 'use client'
-import React, { useEffect } from 'react'
-
-// import '../styles/plugins/themify-icons.css'
+import React, { useEffect, useState } from 'react'
 
 export default function ComingSoon() {
+  const [ timeLeft, setTimeLeft ] = useState({
+    days: '00',
+    hours: '00',
+    minutes: '00',
+    seconds: '00'
+  })
 
   useEffect(() => {
-    countdown();
+    const countdown = () => {
+      const now = new Date()
+      const eventDate = new Date(2025, 1, 10) // March 10, 2025
+      const remTime = eventDate.getTime() - now.getTime()
+
+      if (remTime <= 0) {
+        clearInterval(intervalId)
+        return
+      }
+
+      const s = Math.floor(remTime / 1000) % 60
+      const m = Math.floor(remTime / (1000 * 60)) % 60
+      const h = Math.floor(remTime / (1000 * 60 * 60)) % 24
+      const d = Math.floor(remTime / (1000 * 60 * 60 * 24))
+
+      setTimeLeft({
+        days: d < 10 ? `0${d}` : `${d}`,
+        hours: h < 10 ? `0${h}` : `${h}`,
+        minutes: m < 10 ? `0${m}` : `${m}`,
+        seconds: s < 10 ? `0${s}` : `${s}`
+      })
+    }
+
+    const intervalId = setInterval(countdown, 1000)
+
+    return () => clearInterval(intervalId) // Cleanup on component unmount
   }, [])
-
-
-  function countdown() {
-    let now = new Date();
-    let eventDate = new Date(2025, 1, 1);
-    let currentTiime = now.getTime();
-    let eventTime = eventDate.getTime ();
-    let remTime = eventTime - currentTiime;
-    let s = Math.floor(remTime / 1000);
-    let m = Math.floor(s / 60);
-    let h = Math.floor(m / 60);
-    let d = Math.floor(h / 24);
-    h %= 24;
-    m %= 60;
-    s %= 60;
-    h = (h < 10) ? "0" + h : h;
-    m = (m < 10) ? "0" + m : m;
-    s = (s < 10) ? "0" + s : s;
-    document.getElementById("days").textContent = d;
-    document.getElementById("days").innerText = d;
-    document.getElementById("hours").textContent = h;
-    document.getElementById("minutes").textContent = m;
-    document.getElementById("seconds").textContent = s;
-    setTimeout(countdown, 1000);
-  }
 
   return (
       <section className="comming section-padding">
@@ -40,7 +44,7 @@ export default function ComingSoon() {
           <div className="container">
             <div className="row text-center mb-45">
               <div className="col-md-12">
-                <h6>Our website is under construction</h6>
+                <h6>Website is under construction</h6>
                 <h2>Coming Soon!</h2>
               </div>
             </div>
@@ -48,7 +52,7 @@ export default function ComingSoon() {
               <div className="col-6 offset-md-2 col-md-2">
                 <div className="item">
                   <div className="down">
-                    <h3 id="days">00</h3>
+                    <h3>{timeLeft.days}</h3>
                   </div>
                   <div className="item-info">
                     <h6>Days</h6>
@@ -58,7 +62,7 @@ export default function ComingSoon() {
               <div className="col-6 col-md-2">
                 <div className="item">
                   <div className="down">
-                    <h3 id="hours">00</h3>
+                    <h3>{timeLeft.hours}</h3>
                   </div>
                   <div className="item-info">
                     <h6>Hours</h6>
@@ -68,7 +72,7 @@ export default function ComingSoon() {
               <div className="col-6 col-md-2">
                 <div className="item">
                   <div className="down">
-                    <h3 id="minutes">00</h3>
+                    <h3>{timeLeft.minutes}</h3>
                   </div>
                   <div className="item-info">
                     <h6>Minutes</h6>
@@ -78,7 +82,7 @@ export default function ComingSoon() {
               <div className="col-6 col-md-2">
                 <div className="item">
                   <div className="down">
-                    <h3 id="seconds">00</h3>
+                    <h3>{timeLeft.seconds}</h3>
                   </div>
                   <div className="item-info">
                     <h6>Seconds</h6>
@@ -86,20 +90,6 @@ export default function ComingSoon() {
                 </div>
               </div>
             </div>
-            <div className="row text-center">
-              <div className="offset-md-3 col-md-6">
-                <p>Sign up for our latest news & articles.</p>
-                <form>
-                  <input type="email" name="email" placeholder="Email Address"/>
-                  <button>Subscribe</button>
-                </form>
-              </div>
-            </div>
-            {/*<div className="row text-center">*/}
-            {/*  <div className="go-back col-md-12">*/}
-            {/*    <a href="index.html"> <span><i className="ti-arrow-left" aria-hidden="true"></i></span>&nbsp; Back To Home </a>*/}
-            {/*  </div>*/}
-            {/*</div>*/}
           </div>
         </div>
       </section>
