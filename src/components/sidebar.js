@@ -1,10 +1,11 @@
 import React from 'react'
+import Logo from '../app/img/logo.png'
 
 export default function Sidebar(){
   return(
       <aside id="bauen-aside">
         <div className="bauen-logo">
-          <a href="index.html"> <img src="img/logo.png" className="logo-img" alt=""/>
+          <a href="index.html"> <img src={Logo} className="logo-img" alt=""/>
             <h2>BAUEN<span>INNOVATE DESIGN</span></h2>
           </a>
         </div>
