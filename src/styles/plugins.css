@@ -3,23 +3,23 @@
 -----------------------------------------------------------------*/
 
 /* == bootstrap == */
-@import url("plugins/bootstrap.min.css");
+@import url("bootstrap.min.css");
 
 /* == owl.carousel == */
-@import url("plugins/owl.carousel.min.css");
-@import url("plugins/owl.theme.default.min.css");
+@import url("owl.carousel.min.css");
+@import url("owl.theme.default.min.css");
 
 /* == animate css == */
-@import url("plugins/animate.min.css");
+@import url("animate.min.css");
 
 /* == themify icons ==*/
-@import url("plugins/themify-icons.css");
+@import url("themify-icons.css");
 
 /* == magnific-popup gallery  == */
-@import url("plugins/magnific-popup.css");
+@import url("magnific-popup.css");
 
 /* == YouTubePopUp == */
-@import url("plugins/YouTubePopUp.css");
+@import url("YouTubePopUp.css");
 
 /* == BeforeAfter == */
-@import url("plugins/before-after.css");
+@import url("before-after.css");

@@ -1,11 +1,12 @@
 {
-  "name": "mediarchitects1",
+  "name": "mediarchitects",
+  "description": "Building Dreams, Designing Futures – MediArchitects.",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --port 5600 --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 5600",
     "lint": "next lint"
   },
   "dependencies": {

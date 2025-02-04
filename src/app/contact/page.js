@@ -1,27 +1,27 @@
 import React from 'react'
 import Sidebar from '../../components/sidebar'
 import Footer from '../../components/footer'
-import quot from '../img/quot.png'
-import Banner from '../img/banner.jpg'
-import Team1 from '../img/team/1.jpg'
-import Team2 from '../img/team/2.jpg'
-import Team4 from '../img/team/4.jpg'
-import Client1 from '../img/clients/1.png'
-import Client2 from '../img/clients/2.png'
-import Client3 from '../img/clients/3.png'
-import Client4 from '../img/clients/4.png'
-import Client5 from '../img/clients/5.png'
-import Client6 from '../img/clients/6.png'
+import quot from '@/img/quot.png'
+import Banner from '@/img/banner.jpg'
+import Team1 from '@/img/team/1.jpg'
+import Team2 from '@/img/team/2.jpg'
+import Team4 from '@/img/team/4.jpg'
+import Client1 from '@/img/clients/1.png'
+import Client2 from '@/img/clients/2.png'
+import Client3 from '@/img/clients/3.png'
+import Client4 from '@/img/clients/4.png'
+import Client5 from '@/img/clients/5.png'
+import Client6 from '@/img/clients/6.png'
 
 export default function Contact() {
   return (
       <>
-        <div className="preloader-bg"/>
-        <div id="preloader">
-          <div id="preloader-status">
-            <div className="preloader-position loader"><span/></div>
-          </div>
-        </div>
+        {/*<div className="preloader-bg"/>*/}
+        {/*<div id="preloader">*/}
+        {/*  <div id="preloader-status">*/}
+        {/*    <div className="preloader-position loader"><span/></div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
         <div className="progress-wrap cursor-pointer">
           <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
