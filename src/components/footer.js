@@ -1,7 +1,9 @@
 import React from 'react'
+import { STATIC_DATA } from '../helper/static'
+import Link from 'next/link'
 
-export default function Footer(){
-  return(
+export default function Footer() {
+  return (
       <footer className="main-footer dark">
         <div className="container">
           <div className="row">
@@ -10,7 +12,7 @@ export default function Footer(){
                 <div className="fothead">
                   <h6>Phone</h6>
                 </div>
-                <p>+1 203-123-0606</p>
+                <p>{STATIC_DATA.PHONE}</p>
               </div>
             </div>
             <div className="col-md-4 mb-30">
@@ -18,7 +20,7 @@ export default function Footer(){
                 <div className="fothead">
                   <h6>Email</h6>
                 </div>
-                <p>architecture@bauen.com</p>
+                <p>{STATIC_DATA.EMAIL}</p>
               </div>
             </div>
             <div className="col-md-4 mb-30">
@@ -26,7 +28,7 @@ export default function Footer(){
                 <div className="fothead">
                   <h6>Our Address</h6>
                 </div>
-                <p>24 King St, Charleston, SC 29401 USA</p>
+                <p>{STATIC_DATA.ADDRESS}</p>
               </div>
             </div>
           </div>
@@ -40,8 +42,12 @@ export default function Footer(){
                 </div>
               </div>
               <div className="col-md-4 abot">
-                <div className="social-icon"><a href="index.html"><i className="ti-facebook"/></a> <a href="index.html"><i className="ti-twitter"/></a> <a href="index.html"><i
-                    className="ti-instagram"/></a> <a href="index.html"><i className="ti-pinterest"/></a></div>
+                <div className="social-icon">
+                  <Link href="#"><i className="ti-facebook"/></Link>
+                  <Link href="#"><i className="ti-twitter"/></Link>
+                  <Link href="#"><i className="ti-instagram"/></Link>
+                  <Link href="#"><i className="ti-pinterest"/></Link><
+                  /div>
               </div>
               <div className="col-md-4"/>
             </div>
