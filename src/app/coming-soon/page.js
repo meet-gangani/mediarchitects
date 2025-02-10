@@ -1,8 +1,6 @@
 'use client'
 import React, { useEffect } from 'react'
 
-// import '../styles/plugins/themify-icons.css'
-
 export default function ComingSoon() {
 
   useEffect(() => {
@@ -97,7 +95,8 @@ export default function ComingSoon() {
             </div>
             {/*<div className="row text-center">*/}
             {/*  <div className="go-back col-md-12">*/}
-            {/*    <a href="index.html"> <span><i className="ti-arrow-left" aria-hidden="true"></i></span>&nbsp; Back To Home </a>*/}
+            {/*    <Link href="/"> <span><i className="ti-arrow-left" aria-hidden="true"></i></span>&nbsp;
+             Back To Home </Link>*/}
             {/*  </div>*/}
             {/*</div>*/}
           </div>
