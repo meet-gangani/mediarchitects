@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e147eb-eeb3-4253-8780-dfd7145806aa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/YouTubePopUp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/before-after.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/owl.video.play.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/themify-icons.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Sidebar" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src/pages/coming-soon" />
       <recent name="$PROJECT_DIR$/src/pages" />
-      <recent name="$PROJECT_DIR$/src/styles" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -76,12 +88,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cd396527-eb9d-4fca-b437-37864def7ada" name="Default Changelist" comment="" />
+      <changelist id="66e147eb-eeb3-4253-8780-dfd7145806aa" name="Default Changelist" comment="" />
       <created>1737534955712</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737534955712</updated>
       <workItem from="1737534957879" duration="7239000" />
+      <workItem from="1739431862467" duration="10789000" />
     </task>
     <servers />
   </component>
