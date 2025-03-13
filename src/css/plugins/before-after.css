@@ -239,6 +239,6 @@ div.jx-handle.transition {
 	transition: top .5s ease;
 }
 /* keyboard accessibility */
-div.jx-controller:focus,
-div.jx-image.jx-left div.jx-label:focus,
-div.jx-image.jx-right div.jx-label:focus,
+/*div.jx-controller:focus,*/
+/*div.jx-image.jx-left div.jx-label:focus,*/
+/*div.jx-image.jx-right div.jx-label:focus*/

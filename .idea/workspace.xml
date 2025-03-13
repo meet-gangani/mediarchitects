@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="66e147eb-eeb3-4253-8780-dfd7145806aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/YouTubePopUp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/animate.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/before-after.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/owl.video.play.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/plugins/themify-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/plugins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/plugins/before-after.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/plugins/before-after.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +85,7 @@
       <updated>1737534955712</updated>
       <workItem from="1737534957879" duration="7239000" />
       <workItem from="1739431862467" duration="10789000" />
+      <workItem from="1741162218468" duration="1735000" />
     </task>
     <servers />
   </component>

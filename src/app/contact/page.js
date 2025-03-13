@@ -3,6 +3,7 @@ import Sidebar from '../../components/sidebar'
 import Footer from '../../components/footer'
 import { STATIC_DATA } from '../../helper/static'
 import VideoPromo from '../../components/videoPromo'
+import DefaultPageNavigator from '../../components/defaultPageNavigator'
 
 export const metadata = {
   title: 'Contact - Medi Architect',
@@ -18,6 +19,7 @@ export default function Contact() {
         {/*    <div className="preloader-position loader"><span/></div>*/}
         {/*  </div>*/}
         {/*</div>*/}
+        <DefaultPageNavigator/>
         <div className="progress-wrap cursor-pointer">
           <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
