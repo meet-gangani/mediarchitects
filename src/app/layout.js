@@ -2,13 +2,7 @@ import Script from 'next/script'
 import Head from 'next/head'
 import { Geist, Geist_Mono } from 'next/font/google'
 import '../css/styles.css'
-import '../css/plugins/bootstrap.min.css'
-import '../css/plugins/magnific-popup.css'
-import '../css/plugins/themify-icons.css'
-import '../css/plugins/animate.min.css'
-import '../css/plugins/owl.carousel.min.css'
-import '../css/plugins/owl.theme.default.min.css'
-import '../css/plugins/YouTubePopUp.css'
+import '../css/plugins.css'
 import logo from './favicon.ico'
 
 const geistSans = Geist({
@@ -40,15 +34,15 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
       {children}
-      <Script src="/js/jquery-3.6.3.min.js" strategy="beforeInteractive"/>
-      <Script src="/js/jquery-migrate-3.0.0.min.js" strategy="beforeInteractive"/>
-      <Script src="/js/modernizr-2.6.2.min.js" strategy="beforeInteractive"/>
-      <Script src="/js/imagesloaded.pkgd.min.js" strategy="beforeInteractive"/>
-      <Script src="/js/jquery.isotope.v3.0.2.js" strategy="beforeInteractive"/>
-      <Script src="/js/popper.min.js" strategy="beforeInteractive"/>
-      <Script src="/js/bootstrap.min.js" strategy="beforeInteractive"/>
-      <Script src="/js/scrollIt.min.js" strategy="beforeInteractive"/>
-      <Script src="/js/jquery.waypoints.min.js" strategy="beforeInteractive"/>
+      <Script src="/js/jquery-3.6.3.min.js" strategy="lazyOnload"/>
+      <Script src="/js/jquery-migrate-3.0.0.min.js" strategy="lazyOnload"/>
+      <Script src="/js/modernizr-2.6.2.min.js" strategy="lazyOnload"/>
+      <Script src="/js/imagesloaded.pkgd.min.js" strategy="lazyOnload"/>
+      <Script src="/js/jquery.isotope.v3.0.2.js" strategy="lazyOnload"/>
+      <Script src="/js/popper.min.js" strategy="lazyOnload"/>
+      <Script src="/js/bootstrap.min.js" strategy="lazyOnload"/>
+      <Script src="/js/scrollIt.min.js" strategy="lazyOnload"/>
+      <Script src="/js/jquery.waypoints.min.js" strategy="lazyOnload"/>
       <Script src="/js/owl.carousel.min.js" strategy="lazyOnload"/>
       <Script src="/js/jquery.stellar.min.js" strategy="lazyOnload"/>
       <Script src="/js/jquery.magnific-popup.js" strategy="lazyOnload"/>

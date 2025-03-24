@@ -10,7 +10,7 @@ export default function ComingSoon() {
 
   function countdown() {
     let now = new Date();
-    let eventDate = new Date(2025, 1, 1);
+    let eventDate = new Date(2025, 3, 1);
     let currentTiime = now.getTime();
     let eventTime = eventDate.getTime ();
     let remTime = eventTime - currentTiime;
