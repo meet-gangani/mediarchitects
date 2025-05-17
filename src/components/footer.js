@@ -38,7 +38,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-md-4">
                 <div className="text-left">
-                  <p>© 2024 Bauen. All right reserved.</p>
+                  <p>© 2025 Medi Architect. All right reserved.</p>
                 </div>
               </div>
               <div className="col-md-4 abot">

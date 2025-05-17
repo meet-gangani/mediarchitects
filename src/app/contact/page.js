@@ -3,12 +3,11 @@ import Sidebar from '../../components/sidebar'
 import Footer from '../../components/footer'
 import { STATIC_DATA } from '../../helper/static'
 import VideoPromo from '../../components/videoPromo'
-import DefaultPageNavigator from '../../components/defaultPageNavigator'
 
 export const metadata = {
   title: 'Contact - Medi Architect',
-  description: 'Learn more about our company and team at Medi Architect.',
-};
+  description: 'Learn more about our company and team at Medi Architect.'
+}
 
 export default function Contact() {
   return (
@@ -19,7 +18,7 @@ export default function Contact() {
         {/*    <div className="preloader-position loader"><span/></div>*/}
         {/*  </div>*/}
         {/*</div>*/}
-        <DefaultPageNavigator/>
+        {/*<DefaultPageNavigator/>*/}
         <div className="progress-wrap cursor-pointer">
           <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
@@ -34,7 +33,8 @@ export default function Contact() {
                 <div className="content-lines"/>
               </div>
             </section>
-            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: "url('/img/banner.jpg')" }} style={{ backgroundImage: "url('/img/banner.jpg')" }}/>
+            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: 'url(\'/img/banner.jpg\')' }}
+                     style={{ backgroundImage: 'url(\'/img/banner.jpg\')' }}/>
             <section className="section-padding2">
               <div className="container">
                 <div className="row">
@@ -45,7 +45,9 @@ export default function Contact() {
                 <div className="row mb-90">
                   <div className="col-md-4 mb-30 animate-box" data-animate-effect="fadeInUp">
                     <p><b>Medi Architecture Firm</b></p>
-                    <p>Our firm nisl sodales sit amet sapien idea placerat sodales orcite. Vivamus ne miss rhoncus felis medi architecture.</p>
+                    <p>At Medi Architects, we believe in creating spaces that seamlessly blend with nature and connect deeply with people. Our practice is dedicated to designing interactive and
+                      meaningful architecture that captivates the eye and nourishes the soul. Rooted in earth and culture, our designs evoke tranquility and serenity—creating experiences rather than
+                      just spaces.</p>
                     <p><b>VAT :</b> USA002323065B06</p>
                   </div>
                   <div className="col-md-4 mb-30 animate-box" data-animate-effect="fadeInUp">
