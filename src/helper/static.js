@@ -1,7 +1,7 @@
 exports.STATIC_DATA = {
   EMAIL: 'contact@mediarchitects.in',
   PHONE: '+91 9737883064',
-  ADDRESS: '24 King St, Charleston, SC 29401 USA'
+  ADDRESS: '711 Rio Business Hub, YAMUNA CHOWK, Mota Varachha, Surat'
 }
 
 exports.PROJECTS = [
