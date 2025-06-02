@@ -23,7 +23,7 @@ export default function Service() {
         {/*    <div className="preloader-position loader"><span></span></div>*/}
         {/*  </div>*/}
         {/*</div>*/}
-        <DefaultPageNavigator/>
+        {/*<DefaultPageNavigator/>*/}
         <div className="progress-wrap cursor-pointer">
           <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
@@ -38,7 +38,7 @@ export default function Service() {
                 <div className="content-lines"></div>
               </div>
             </section>
-            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: "url('/img/banner.jpg')" }}></section>
+            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: "url('/img/banner.webp')" }}></section>
             <section className="services section-padding2">
               <div className="container">
                 <div className="row">

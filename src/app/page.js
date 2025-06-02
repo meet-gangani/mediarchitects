@@ -4,6 +4,7 @@ import Footer from '../components/footer'
 import Link from 'next/link'
 import VideoPromo from '../components/videoPromo'
 import DefaultPageNavigator from '../components/defaultPageNavigator'
+import { PROJECTS } from '../helper/static'
 
 export default function Home() {
 
@@ -16,7 +17,7 @@ export default function Home() {
         {/*    <div className="preloader-position loader"><span></span></div>*/}
         {/*  </div>*/}
         {/*</div>*/}
-        <DefaultPageNavigator/>
+        {/*<DefaultPageNavigator/>*/}
         <div className="progress-wrap cursor-pointer">
           <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
@@ -27,40 +28,27 @@ export default function Home() {
         <div id="bauen-main">
           <header className="header slider-fade">
             <div className="owl-carousel owl-theme">
-              <div className="text-end item bg-img" data-overlay-dark="3" style={{ backgroundImage: 'url(\'/img/slider/1.jpg\')' }}>
-                <div className="v-middle caption">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-md-7 offset-md-5">
-                        <div className="o-hidden">
-                          <h1>Innovate Desing in Toronto</h1>
-                          <p>Architecture viverra tellus nec massa dictum the euismoe.
-                            <br/>Curabitur viverra the posuere aukue velit.
-                          </p>
-                          <div className="butn-light mt-30 mb-30"><a href="https://1.envato.market/mDnXD" target="_blank"><span>Buy Now</span></a></div>
+              {
+                PROJECTS.map((project, index) => {
+                  return (
+                      <div key={index} className="text-end item bg-img" data-overlay-dark="3" style={{ backgroundImage: `url(${project?.images[0]})` }}>
+                        <div className="v-middle caption">
+                          <div className="container">
+                            <div className="row">
+                              <div className="col-md-7 offset-md-5">
+                                <div className="o-hidden">
+                                  <h1>Innovate Desing in {project?.name}</h1>
+                                  <p>{project?.tagLine}</p>
+                                  <div className="butn-light mt-30 mb-30"><a href="https://1.envato.market/mDnXD" target="_blank"><span>Buy Now</span></a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="text-end item bg-img" data-overlay-dark="4" style={{ backgroundImage: 'url(\'/img/slider/2.jpg\')' }}>
-                <div className="v-middle caption">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-md-7 offset-md-5">
-                        <div className="o-hidden">
-                          <h1>Innovate Desing in Canada</h1>
-                          <p>Architecture viverra tellus nec massa dictum the euismoe.
-                            <br/>Curabitur viverra the posuere aukue velit.
-                          </p>
-                          <div className="butn-light mt-30 mb-30"><a href="https://1.envato.market/mDnXD" target="_blank"><span>Buy Now</span></a></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                  )
+                })
+              }
             </div>
             <div className="hero-corner"></div>
             <div className="hero-corner3"></div>
@@ -76,16 +64,14 @@ export default function Home() {
                 <div className="row">
                   <div className="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
                     <h2 className="section-title">About <span>Medi Architect</span></h2>
-                    <p>Architecture viverra tristique justo duis vitae diam neque nivamus aestan ateuene artines aringianu atelit finibus viverra nec lacus. Nedana theme erodino setlie suscipe no
-                      curabit tristique.</p>
-                    <p>Design inilla duiman at elit finibus viverra nec a lacus themo the drudea seneoice misuscipit non sagie the fermen.</p>
-                    <p>Planner inilla duiman at elit finibus viverra nec a lacus themo the drudea seneoice misuscipit non sagie the fermen. Viverra tristique jusio the ivite dianne onen nivami
-                      acsestion.</p>
+                    <p>Architectural firm that believe in creating spaces that seamlessly bind with nature and engage with people on a profound level. Our firm is dedicated to designing interactive and satisfactory architectural pieces that captivate the eye and nourish the soul.</p>
+                    <p>Deeply rooted in earth and culture, we feel spaces are those which make one feel tranquil and this evokes the name-'Medi'.</p>
+                    <p>Thoughtfully, we thrive to design experiences with serenity rather than spaces.</p>
                   </div>
                   <div className="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <div className="about-img">
-                      <div className="img"><img src="/img/about.jpg" className="img-fluid" alt=""/></div>
-                      <div className="about-img-2 about-buro">Canada Office</div>
+                      <div className="img"><img src="/img/about.webp" height={300} className="img-fluid" alt=""/></div>
+                      <div className="about-img-2 about-buro">Sky Rise Residence</div>
                     </div>
                   </div>
                 </div>
@@ -100,43 +86,22 @@ export default function Home() {
                 </div>
                 <div className="row">
                   <div className="col-md-12">
-                    <div className="owl-carousel owl-theme">
-                      <div className="item">
-                        <div className="position-re o-hidden"><img src={'/img/projects/1.jpg'} alt=""/></div>
-                        <div className="con">
-                          <h6><Link href="/">Interior</Link></h6>
-                          <h5><Link href="/">Cotton House</Link></h5>
-                          <div className="line"></div>
-                          <Link href="/"><i className="ti-arrow-right"></i></Link>
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="position-re o-hidden"><img src={'/img/projects/2.jpg'} alt=""/></div>
-                        <div className="con">
-                          <h6><Link href="/">Exterior</Link></h6>
-                          <h5><Link href="/">Armada Center</Link></h5>
-                          <div className="line"></div>
-                          <Link href="/"><i className="ti-arrow-right"></i></Link>
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="position-re o-hidden"><img src={'/img/projects/3.jpg'} alt=""/></div>
-                        <div className="con">
-                          <h6><Link href="/">Urban</Link></h6>
-                          <h5><Link href="/">Stonya Villa</Link></h5>
-                          <div className="line"></div>
-                          <Link href="/"><i className="ti-arrow-right"></i></Link>
-                        </div>
-                      </div>
-                      <div className="item">
-                        <div className="position-re o-hidden"><img src={'/img/projects/4.jpg'} alt=""/></div>
-                        <div className="con">
-                          <h6><Link href="/">Interior</Link></h6>
-                          <h5><Link href="/">Prime Hotel</Link></h5>
-                          <div className="line"></div>
-                          <Link href="/"><i className="ti-arrow-right"></i></Link>
-                        </div>
-                      </div>
+                    <div className="owl-carousel owl-theme" style={{height: '350px'}}>
+                      {
+                        PROJECTS.map((project, index) => {
+                          return (
+                              <div key={index} className="item" style={{height: '350px'}}>
+                                <div className="position-re o-hidden" style={{height: '100%'}}><img style={{height: '100%', objectFit: 'cover'}} width={300} src={`${project?.images[1]}`} alt=""/></div>
+                                <div className="con">
+                                  <h6><Link href={`/project/${project?.id}`}>Interior</Link></h6>
+                                  <h5><Link href={`/project/${project?.id}`}>{project?.name}</Link></h5>
+                                  <div className="line"></div>
+                                  <Link href={`/project/${project?.id}`}><i className="ti-arrow-right"></i></Link>
+                                </div>
+                              </div>
+                          )
+                        })
+                      }
                     </div>
                   </div>
                 </div>
@@ -194,7 +159,7 @@ export default function Home() {
             {/*      <div className="col-md-12">*/}
             {/*        <div className="owl-carousel owl-theme">*/}
             {/*          <div className="item">*/}
-            {/*            <div className="position-re o-hidden"><img src={'/img/slider/1.jpg'} alt=""/></div>*/}
+            {/*            <div className="position-re o-hidden"><img src={'/img/slider/1.webp'} alt=""/></div>*/}
             {/*            <div className="con"> <span className="category">*/}
             {/*                                <Link href="/">Architecture </Link> - 20.12.2024*/}
             {/*                            </span>*/}
@@ -202,7 +167,7 @@ export default function Home() {
             {/*            </div>*/}
             {/*          </div>*/}
             {/*          <div className="item">*/}
-            {/*            <div className="position-re o-hidden"><img src={'/img/slider/2.jpg'} alt=""/></div>*/}
+            {/*            <div className="position-re o-hidden"><img src={'/img/slider/2.webp'} alt=""/></div>*/}
             {/*            <div className="con"> <span className="category">*/}
             {/*                                <Link href="/">Interior</Link> - 18.12.2024*/}
             {/*                            </span>*/}
@@ -210,7 +175,7 @@ export default function Home() {
             {/*            </div>*/}
             {/*          </div>*/}
             {/*          <div className="item">*/}
-            {/*            <div className="position-re o-hidden"><img src={'/img/slider/3.jpg'} alt=""/></div>*/}
+            {/*            <div className="position-re o-hidden"><img src={'/img/slider/3.webp'} alt=""/></div>*/}
             {/*            <div className="con"> <span className="category">*/}
             {/*                                <Link href="/">Urban</Link> - 16.12.2024*/}
             {/*                            </span>*/}
@@ -218,7 +183,7 @@ export default function Home() {
             {/*            </div>*/}
             {/*          </div>*/}
             {/*          <div className="item">*/}
-            {/*            <div className="position-re o-hidden"><img src={'/img/slider/4.jpg'} alt=""/></div>*/}
+            {/*            <div className="position-re o-hidden"><img src={'/img/slider/4.webp'} alt=""/></div>*/}
             {/*            <div className="con"> <span className="category">*/}
             {/*                                <Link href="/">Planing</Link> - 14.12.2024*/}
             {/*                            </span>*/}

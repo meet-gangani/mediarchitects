@@ -4,7 +4,7 @@ export default function VideoPromo() {
   return (
       <>
         <section className="testimonials">
-          <div className="background bg-img bg-fixed section-padding pb-0" style={{ backgroundImage: 'url(\'/img/banner.jpg\')' }} data-overlay-dark="3">
+          <div className="background bg-img bg-fixed section-padding pb-0" style={{ backgroundImage: 'url(\'/img/banner.webp\')' }} data-overlay-dark="3">
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
