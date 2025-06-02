@@ -70,7 +70,7 @@ export default function Home() {
                   </div>
                   <div className="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <div className="about-img">
-                      <div className="img"><img src="/img/about.jpg" height={300} className="img-fluid" alt=""/></div>
+                      <div className="img"><img src="/img/about.webp" height={300} className="img-fluid" alt=""/></div>
                       <div className="about-img-2 about-buro">Sky Rise Residence</div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ export default function Home() {
                       {
                         PROJECTS.map((project, index) => {
                           return (
-                              <div className="item" style={{height: '350px'}}>
+                              <div key={index} className="item" style={{height: '350px'}}>
                                 <div className="position-re o-hidden" style={{height: '100%'}}><img style={{height: '100%', objectFit: 'cover'}} width={300} src={`${project?.images[1]}`} alt=""/></div>
                                 <div className="con">
                                   <h6><Link href={`/project/${project?.id}`}>Interior</Link></h6>
@@ -159,7 +159,7 @@ export default function Home() {
             {/*      <div className="col-md-12">*/}
             {/*        <div className="owl-carousel owl-theme">*/}
             {/*          <div className="item">*/}
-            {/*            <div className="position-re o-hidden"><img src={'/img/slider/1.jpg'} alt=""/></div>*/}
+            {/*            <div className="position-re o-hidden"><img src={'/img/slider/1.webp'} alt=""/></div>*/}
             {/*            <div className="con"> <span className="category">*/}
             {/*                                <Link href="/">Architecture </Link> - 20.12.2024*/}
             {/*                            </span>*/}
@@ -167,7 +167,7 @@ export default function Home() {
             {/*            </div>*/}
             {/*          </div>*/}
             {/*          <div className="item">*/}
-            {/*            <div className="position-re o-hidden"><img src={'/img/slider/2.jpg'} alt=""/></div>*/}
+            {/*            <div className="position-re o-hidden"><img src={'/img/slider/2.webp'} alt=""/></div>*/}
             {/*            <div className="con"> <span className="category">*/}
             {/*                                <Link href="/">Interior</Link> - 18.12.2024*/}
             {/*                            </span>*/}
@@ -175,7 +175,7 @@ export default function Home() {
             {/*            </div>*/}
             {/*          </div>*/}
             {/*          <div className="item">*/}
-            {/*            <div className="position-re o-hidden"><img src={'/img/slider/3.jpg'} alt=""/></div>*/}
+            {/*            <div className="position-re o-hidden"><img src={'/img/slider/3.webp'} alt=""/></div>*/}
             {/*            <div className="con"> <span className="category">*/}
             {/*                                <Link href="/">Urban</Link> - 16.12.2024*/}
             {/*                            </span>*/}
@@ -183,7 +183,7 @@ export default function Home() {
             {/*            </div>*/}
             {/*          </div>*/}
             {/*          <div className="item">*/}
-            {/*            <div className="position-re o-hidden"><img src={'/img/slider/4.jpg'} alt=""/></div>*/}
+            {/*            <div className="position-re o-hidden"><img src={'/img/slider/4.webp'} alt=""/></div>*/}
             {/*            <div className="con"> <span className="category">*/}
             {/*                                <Link href="/">Planing</Link> - 14.12.2024*/}
             {/*                            </span>*/}

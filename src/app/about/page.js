@@ -34,7 +34,7 @@ export default function About() {
                 <div className="content-lines"></div>
               </div>
             </section>
-            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: "url('/img/banner.jpg')" }}></section>
+            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: "url('/img/banner.webp')" }}></section>
             <section className="about section-padding2">
               <div className="container">
                 <div className="row">
@@ -46,7 +46,7 @@ export default function About() {
                   </div>
                   <div className="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <div className="about-img">
-                      <div className="img"><img src={'/img/about.jpg'} className="img-fluid" alt=""/></div>
+                      <div className="img"><img src={'/img/about.webp'} className="img-fluid" alt=""/></div>
                       <div className="about-img-2 about-buro">Sky Rise Residence</div>
                     </div>
                   </div>

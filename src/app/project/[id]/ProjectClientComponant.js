@@ -30,7 +30,7 @@ export default function ProjectClient({ id }) {
                 <div className="content-lines"></div>
               </div>
             </section>
-            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="/img/banner.jpg" style={{ backgroundImage: `url(/img/banner.jpg)` }}/>
+            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" data-background="/img/banner.webp" style={{ backgroundImage: `url(/img/banner.jpg)` }}/>
             <section className="section-padding2">
               <div className="container">
                 <div className="row">

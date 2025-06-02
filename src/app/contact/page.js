@@ -33,8 +33,8 @@ export default function Contact() {
                 <div className="content-lines"/>
               </div>
             </section>
-            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: 'url(\'/img/banner.jpg\')' }}
-                     style={{ backgroundImage: 'url(\'/img/banner.jpg\')' }}/>
+            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: 'url(\'/img/banner.webp\')' }}
+                     style={{ backgroundImage: 'url(\'/img/banner.webp\')' }}/>
             <section className="section-padding2">
               <div className="container">
                 <div className="row">

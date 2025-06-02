@@ -16,10 +16,10 @@ exports.PROJECTS = [
     area: '11000 sq.ft',
     location: 'Ladvi Gam, Surat',
     images: [
-      '/img/project-imgs/VIKASBHAI/1.jpg',
-      '/img/project-imgs/VIKASBHAI/2.jpg',
-      '/img/project-imgs/VIKASBHAI/3.jpg',
-      '/img/project-imgs/VIKASBHAI/4.jpg'
+      '/img/project-imgs/VIKASBHAI/1.webp',
+      '/img/project-imgs/VIKASBHAI/2.webp',
+      '/img/project-imgs/VIKASBHAI/3.webp',
+      '/img/project-imgs/VIKASBHAI/4.webp'
     ]
   },
   {
@@ -33,8 +33,8 @@ exports.PROJECTS = [
     area: '3800 sq.ft',
     location: 'Katargam, Surat',
     images: [
-      '/img/project-imgs/CK-BUNGLOWS/1.jpg',
-      '/img/project-imgs/CK-BUNGLOWS/2.jpg'
+      '/img/project-imgs/CK-BUNGLOWS/1.webp',
+      '/img/project-imgs/CK-BUNGLOWS/2.webp'
     ]
   },
   {
@@ -48,12 +48,12 @@ exports.PROJECTS = [
     area: '1000 sq.ft',
     location: 'Mota Varachha, Surat',
     images: [
-      "/img/project-imgs/THATS-PEOPLE/1.jpg",
-      "/img/project-imgs/THATS-PEOPLE/2.jpg",
-      "/img/project-imgs/THATS-PEOPLE/3.jpg",
-      "/img/project-imgs/THATS-PEOPLE/4.jpg",
-      "/img/project-imgs/THATS-PEOPLE/5.jpg",
-      "/img/project-imgs/THATS-PEOPLE/6.jpg"
+      "/img/project-imgs/THATS-PEOPLE/1.webp",
+      "/img/project-imgs/THATS-PEOPLE/2.webp",
+      "/img/project-imgs/THATS-PEOPLE/3.webp",
+      "/img/project-imgs/THATS-PEOPLE/4.webp",
+      "/img/project-imgs/THATS-PEOPLE/5.webp",
+      "/img/project-imgs/THATS-PEOPLE/6.webp"
     ]
   },
   {
@@ -67,13 +67,13 @@ exports.PROJECTS = [
     area: '1700 sq.ft',
     location: 'Katargam, Surat',
     images: [
-      '/img/project-imgs/KRISHANA-RESIDENCY/1.jpg',
-      '/img/project-imgs/KRISHANA-RESIDENCY/2.jpg',
-      '/img/project-imgs/KRISHANA-RESIDENCY/3.jpg',
-      '/img/project-imgs/KRISHANA-RESIDENCY/4.jpg',
-      '/img/project-imgs/KRISHANA-RESIDENCY/5.jpg',
-      '/img/project-imgs/KRISHANA-RESIDENCY/6.jpg',
-      '/img/project-imgs/KRISHANA-RESIDENCY/7.jpg'
+      '/img/project-imgs/KRISHANA-RESIDENCY/1.webp',
+      '/img/project-imgs/KRISHANA-RESIDENCY/2.webp',
+      '/img/project-imgs/KRISHANA-RESIDENCY/3.webp',
+      '/img/project-imgs/KRISHANA-RESIDENCY/4.webp',
+      '/img/project-imgs/KRISHANA-RESIDENCY/5.webp',
+      '/img/project-imgs/KRISHANA-RESIDENCY/6.webp',
+      '/img/project-imgs/KRISHANA-RESIDENCY/7.webp'
     ]
   },
 
@@ -88,15 +88,15 @@ exports.PROJECTS = [
     area: '2000 sq.ft',
     location: 'Mota Varachha, Surat',
     images: [
-      '/img/project-imgs/SKY-RISE/1.jpg',
-      '/img/project-imgs/SKY-RISE/2.jpg',
-      '/img/project-imgs/SKY-RISE/3.jpg',
-      '/img/project-imgs/SKY-RISE/4.jpg',
-      '/img/project-imgs/SKY-RISE/5.jpg',
-      '/img/project-imgs/SKY-RISE/6.jpg',
-      '/img/project-imgs/SKY-RISE/7.jpg',
-      '/img/project-imgs/SKY-RISE/8.jpg',
-      '/img/project-imgs/SKY-RISE/9.jpg'
+      '/img/project-imgs/SKY-RISE/1.webp',
+      '/img/project-imgs/SKY-RISE/2.webp',
+      '/img/project-imgs/SKY-RISE/3.webp',
+      '/img/project-imgs/SKY-RISE/4.webp',
+      '/img/project-imgs/SKY-RISE/5.webp',
+      '/img/project-imgs/SKY-RISE/6.webp',
+      '/img/project-imgs/SKY-RISE/7.webp',
+      '/img/project-imgs/SKY-RISE/8.webp',
+      '/img/project-imgs/SKY-RISE/9.webp'
     ]
   },
 
@@ -111,9 +111,9 @@ exports.PROJECTS = [
     area: '10500 sq.ft',
     location: 'Ladvi Gam, Surat',
     images: [
-      '/img/project-imgs/DEVRAJBHAI-BUNGLOWS/1.jpg',
-      '/img/project-imgs/DEVRAJBHAI-BUNGLOWS/2.jpg',
-      '/img/project-imgs/DEVRAJBHAI-BUNGLOWS/3.jpg'
+      '/img/project-imgs/DEVRAJBHAI-BUNGLOWS/1.webp',
+      '/img/project-imgs/DEVRAJBHAI-BUNGLOWS/2.webp',
+      '/img/project-imgs/DEVRAJBHAI-BUNGLOWS/3.webp'
     ]
   }
 ]
