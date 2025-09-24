@@ -37,9 +37,8 @@ export default function Home() {
                             <div className="row">
                               <div className="col-md-7 offset-md-5">
                                 <div className="o-hidden">
-                                  <h1>Innovate Desing in {project?.name}</h1>
-                                  <p>{project?.tagLine}</p>
-                                  <div className="butn-light mt-30 mb-30"><a href="https://1.envato.market/mDnXD" target="_blank"><span>Buy Now</span></a></div>
+                                  <h1>{project?.tagLine}</h1>
+                                  {/*<p></p>*/}
                                 </div>
                               </div>
                             </div>

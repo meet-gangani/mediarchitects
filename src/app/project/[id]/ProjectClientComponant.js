@@ -44,7 +44,6 @@ export default function ProjectClient({ id }) {
                   </div>
                   <div className="col-md-4">
                     <p><b>Year : </b> {currentProject?.year}</p>
-                    <p><b>Company : </b> WPS International</p>
                     <p><b>Project Name : </b> {currentProject?.projectName}</p>
                     <p><b>Area : </b> {currentProject?.area}</p>
                     <p><b>Location : </b> {currentProject?.location}</p>

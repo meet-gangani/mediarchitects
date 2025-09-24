@@ -39,7 +39,7 @@ export default function About() {
               <div className="container">
                 <div className="row">
                   <div className="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
-                    <h2 className="section-title">About <span>Medi Architect</span></h2>
+                    <h2 className="section-title">About <span>Medi</span></h2>
                     <p>Architectural firm that believe in creating spaces that seamlessly bind with nature and engage with people on a profound level. Our firm is dedicated to designing interactive and satisfactory architectural pieces that captivate the eye and nourish the soul.</p>
                     <p>Deeply rooted in earth and culture, we feel spaces are those which make one feel tranquil and this evokes the name-'Medi'.</p>
                     <p>Thoughtfully, we thrive to design experiences with serenity rather than spaces.</p>
@@ -71,8 +71,7 @@ export default function About() {
                         <p>Architect</p>
                         <div className="social valign">
                           <div className="full-width">
-                            <p>Bachelor of Architecture</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i
-                              className="ti-instagram"></i></a>
+                            <p>Bachelor of Architecture</p>
                           </div>
                         </div>
                       </div>
@@ -86,8 +85,7 @@ export default function About() {
                         <p>Engineer</p>
                         <div className="social valign">
                           <div className="full-width">
-                            <p>Msc STRUCTURAL ENGINEER</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i
-                              className="ti-instagram"></i></a>
+                            <p>Msc STRUCTURAL ENGINEER</p>
                           </div>
                         </div>
                       </div>
@@ -99,7 +97,7 @@ export default function About() {
                         <p>INTERIOR DESIGNER</p>
                         <div className="social valign">
                           <div className="full-width">
-                            <p>INTERIOR DESIGNER</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i className="ti-instagram"></i></a>
+                            <p>INTERIOR DESIGNER</p>
                           </div>
                         </div>
                       </div>
@@ -113,8 +111,7 @@ export default function About() {
                         <p>VR EXPERT</p>
                         <div className="social valign">
                           <div className="full-width">
-                            <p>VIRTUAL REALITY</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i
-                              className="ti-instagram"></i></a>
+                            <p>VIRTUAL REALITY</p>
                           </div>
                         </div>
                       </div>
@@ -128,7 +125,7 @@ export default function About() {
                         <p>SITE SUPERVISOR</p>
                         <div className="social valign">
                           <div className="full-width">
-                            <p>SITE SUPERVISOR</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i className="ti-instagram"></i></a>
+                            <p>SITE SUPERVISOR</p>
                           </div>
                         </div>
                       </div>

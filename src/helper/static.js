@@ -26,7 +26,7 @@ exports.PROJECTS = [
     id: 2,
     name: 'Mr. Ck Bunglows',
     projectName: 'Mr.Ck bunglow',
-    tagLine: `Where fluid form, natural light, and green ${<br/>} edges define modern living.`,
+    tagLine: `Where fluid form, natural light, and green edges define modern living.`,
     title: 'Curvilinear Urban Retreat',
     description: 'A striking interplay of fluid geometry and modern minimalism, this corner residence redefines urban living with its bold yet organic form. The sweeping curves of the balconies soften the rigid architectural language, creating a seamless dialogue between built space and nature. The monochromatic façade, punctuated by warm earthy accents, lends a refined sophistication while maximizing natural light and ventilation. The rooftop solar canopy hints at sustainable ingenuity, merging functionality with aesthetics. Verdant planters cascade over the edges, infusing the structure with vibrancy and reinforcing its connection to the environment. Designed for those who seek a balance of elegance and efficiency, this home is a contemporary sanctuary in the heart of the city.',
     year: 2023,
@@ -89,7 +89,6 @@ exports.PROJECTS = [
     location: 'Mota Varachha, Surat',
     images: [
       '/img/project-imgs/SKY-RISE/1.webp',
-      '/img/project-imgs/SKY-RISE/2.webp',
       '/img/project-imgs/SKY-RISE/3.webp',
       '/img/project-imgs/SKY-RISE/4.webp',
       '/img/project-imgs/SKY-RISE/5.webp',

@@ -6,7 +6,7 @@ export default function Sidebar() {
       <aside id="bauen-aside">
         <div className="bauen-logo">
           <Link href="/"><img src={'/img/logo.png'} className="logo-img rounded-3" alt=""/>
-            <h2>Medi Architect<span>INNOVATE DESIGN</span></h2>
+            <h2>MEDI<span>ARCHITECT</span></h2>
           </Link>
         </div>
         <nav className="bauen-main-menu">
