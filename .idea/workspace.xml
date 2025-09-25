@@ -6,61 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="66e147eb-eeb3-4253-8780-dfd7145806aa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/abou4t.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/CK-BUNGLOWS/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/CK-BUNGLOWS/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/DEVRAJBHAI-BUNGLOWS/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/DEVRAJBHAI-BUNGLOWS/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/DEVRAJBHAI-BUNGLOWS/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/KRISHANA-RESIDENCY/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/KRISHANA-RESIDENCY/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/KRISHANA-RESIDENCY/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/KRISHANA-RESIDENCY/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/KRISHANA-RESIDENCY/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/KRISHANA-RESIDENCY/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/KRISHANA-RESIDENCY/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/SKY-RISE/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/THATS-PEOPLE/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/THATS-PEOPLE/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/THATS-PEOPLE/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/THATS-PEOPLE/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/THATS-PEOPLE/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/THATS-PEOPLE/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/VIKASBHAI/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/VIKASBHAI/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/VIKASBHAI/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/project-imgs/VIKASBHAI/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/projects/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/projects/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/projects/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/projects/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/projects/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/projects/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/slider/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/bun.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/about/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/coming-soon/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/coming-soon/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/project/[id]/ProjectClientComponant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/project/[id]/ProjectClientComponant.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/service/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/service/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/videoPromo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/videoPromo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helper/static.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/static.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,21 +48,15 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ubuntu/learning/JS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/home/ubuntu/software/WebStorm-2022.3.4/WebStorm-223.8836.50/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/img/slider" />
@@ -180,6 +127,8 @@
       <workItem from="1748839627676" duration="4765000" />
       <workItem from="1748845899668" duration="55000" />
       <workItem from="1748850079316" duration="2644000" />
+      <workItem from="1758713662212" duration="2608000" />
+      <workItem from="1758773142935" duration="10022000" />
     </task>
     <servers />
   </component>
@@ -196,5 +145,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

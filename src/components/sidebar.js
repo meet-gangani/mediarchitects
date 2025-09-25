@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { MdOutlineAddIcCall, MdOutlineMail } from 'react-icons/md'
 
 export default function Sidebar() {
   return (
@@ -14,15 +15,15 @@ export default function Sidebar() {
             <li className="active"><Link href="/">Home</Link></li>
             <li><Link href="/about">About</Link></li>
             <li className="bauen-sub"><Link href="/service">Services</Link></li>
+            <li><Link href="/project">Projects</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </ul>
         </nav>
         <div className="bauen-footer">
           <ul>
-            <li><a href="#"><i className="ti-facebook"/></a></li>
-            <li><a href="#"><i className="ti-twitter"/></a></li>
-            <li><a href="#"><i className="ti-instagram"/></a></li>
-            <li><a href="#"><i className="ti-pinterest"/></a></li>
+            <li><a href="#"><MdOutlineAddIcCall size={16}/></a></li>
+            <li><a href="#"><MdOutlineMail size={18}/></a></li>
+            <li> <a href="https://www.instagram.com/medi_architects_" target="_blank" rel="noopener noreferrer"><i className="ti-instagram"/></a></li>
           </ul>
         </div>
       </aside>

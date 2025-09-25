@@ -64,22 +64,24 @@ export default function About() {
                   <div className="col-md-12 owl-carousel owl-theme">
                     <div className="item">
                       <div className="img">
-                        <Link href="/"><img src={'/img/team/1.jpg'} alt=""/></Link>
+                        <Link href="/"><img src={'/img/team/prashant.png'} alt=""/></Link>
                       </div>
                       <div className="info">
                         <h6>AR. PRASHANT KHUNT</h6>
                         <p>Architect</p>
                         <div className="social valign">
                           <div className="full-width">
-                            <p>Bachelor of Architecture</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i
-                              className="ti-instagram"></i></a>
+                            <p>Bachelor of Architecture</p>
+                            <a href="#"><i className="ti-facebook"></i></a>
+                            <a href="#"><i className="ti-twitter-alt"></i></a>
+                            <a href="#"><i className="ti-instagram"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="item">
                       <div className="img">
-                        <Link href="/"><img src={'/img/team/3.jpg'} alt=""/></Link>
+                        <Link href="/"><img src={'/img/team/jay.png'} alt=""/></Link>
                       </div>
                       <div className="info">
                         <h6>ER.JAY LAKHANI</h6>
@@ -93,7 +95,7 @@ export default function About() {
                       </div>
                     </div>
                     <div className="item">
-                      <Link href="/"><img src={'/img/team/2.jpg'} alt=""/></Link>
+                      <Link href="/"><img src={'/img/team/ruchita.png'} alt=""/></Link>
                       <div className="info">
                         <h6>ID  RUCHITA PATEL</h6>
                         <p>INTERIOR DESIGNER</p>
@@ -106,7 +108,7 @@ export default function About() {
                     </div>
                     <div className="item">
                       <div className="img">
-                        <Link href="/"><img src={'/img/team/1.jpg'} alt=""/></Link>
+                        <Link href="/"><img src={'/img/team/jatin.png'} alt=""/></Link>
                       </div>
                       <div className="info">
                         <h6>JATIN PATEL</h6>
@@ -121,7 +123,7 @@ export default function About() {
                     </div>
                     <div className="item">
                       <div className="img">
-                        <Link href="/"><img src={'/img/team/3.jpg'} alt=""/></Link>
+                        <Link href="/"><img src={'/img/team/dhaval.png'} alt=""/></Link>
                       </div>
                       <div className="info">
                         <h6>ER.DHAVAL BARVALIYA</h6>

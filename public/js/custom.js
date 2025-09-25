@@ -247,7 +247,7 @@ $(function() {
     });
     
     // Projects owlCarousel
-    $('.projects .owl-carousel').owlCarousel({
+    $('.project .owl-carousel').owlCarousel({
         loop: true
         , margin: 30
         , mouseDrag: true
