@@ -36,9 +36,7 @@ export default function Home() {
                             <div className="row">
                               <div className="col-md-7 offset-md-5">
                                 <div className="o-hidden">
-                                  <h1>Innovate Desing in {project?.name}</h1>
-                                  <p>{project?.tagLine}</p>
-                                  <div className="butn-light"><a href="https://1.envato.market/mDnXD" target="_blank"><span>Buy Now</span></a></div>
+                                  <h1>{project?.tagLine}</h1>
                                 </div>
                               </div>
                             </div>
@@ -90,7 +88,8 @@ export default function Home() {
                         PROJECTS.map((project, index) => {
                           return (
                               <div key={index} className="item" style={{height: '350px'}}>
-                                <div className="position-re o-hidden" style={{height: '100%'}}><img style={{height: '100%', objectFit: 'cover'}} width={300} src={`${project?.images[1]}`} alt=""/></div>
+                                <div className="position-re o-hidden" style={{height: '100%'}}>
+                                  <img style={{height: '100%', objectFit: 'cover'}} width={300} src={`${project?.images[1]}`} alt=""/></div>
                                 <div className="con">
                                   <h6><Link href={`/project/${project?.id}`}>Interior</Link></h6>
                                   <h5><Link href={`/project/${project?.id}`}>{project?.name}</Link></h5>

@@ -1,8 +1,16 @@
-exports.STATIC_DATA = {
-  EMAIL: 'contact@mediarchitects.in',
-  PHONE: '+91 9737883064',
-  ADDRESS: '711 Rio Business Hub, YAMUNA CHOWK, Mota Varachha, Surat'
+function createStaticData() {
+  const EMAIL = 'contact@mediarchitects.in'
+  const PHONE = '+91 9737883064'
+  return {
+    EMAIL,
+    PHONE,
+    ADDRESS: '711 Rio Business Hub, Yamuna Chowk, Mota Varachha, Surat',
+    PHONE_REDIRECTION: `tel:${PHONE}`,
+    EMAIL_REDIRECTION: `https://mail.google.com/mail/?view=cm&fs=1&to=${EMAIL}&su=Inquiries&body=Hello`
+  }
 }
+
+exports.STATIC_DATA = createStaticData()
 
 exports.PROJECTS = [
   {
@@ -26,7 +34,7 @@ exports.PROJECTS = [
     id: 2,
     name: 'Mr. Ck Bunglows',
     projectName: 'Mr.Ck bunglow',
-    tagLine: `Where fluid form, natural light, and green ${<br/>} edges define modern living.`,
+    tagLine: `Where fluid form, natural light, and green edges define modern living.`,
     title: 'Curvilinear Urban Retreat',
     description: 'A striking interplay of fluid geometry and modern minimalism, this corner residence redefines urban living with its bold yet organic form. The sweeping curves of the balconies soften the rigid architectural language, creating a seamless dialogue between built space and nature. The monochromatic façade, punctuated by warm earthy accents, lends a refined sophistication while maximizing natural light and ventilation. The rooftop solar canopy hints at sustainable ingenuity, merging functionality with aesthetics. Verdant planters cascade over the edges, infusing the structure with vibrancy and reinforcing its connection to the environment. Designed for those who seek a balance of elegance and efficiency, this home is a contemporary sanctuary in the heart of the city.',
     year: 2023,
@@ -48,12 +56,12 @@ exports.PROJECTS = [
     area: '1000 sq.ft',
     location: 'Mota Varachha, Surat',
     images: [
-      "/img/project-imgs/THATS-PEOPLE/1.webp",
-      "/img/project-imgs/THATS-PEOPLE/2.webp",
-      "/img/project-imgs/THATS-PEOPLE/3.webp",
-      "/img/project-imgs/THATS-PEOPLE/4.webp",
-      "/img/project-imgs/THATS-PEOPLE/5.webp",
-      "/img/project-imgs/THATS-PEOPLE/6.webp"
+      '/img/project-imgs/THATS-PEOPLE/1.webp',
+      '/img/project-imgs/THATS-PEOPLE/2.webp',
+      '/img/project-imgs/THATS-PEOPLE/3.webp',
+      '/img/project-imgs/THATS-PEOPLE/4.webp',
+      '/img/project-imgs/THATS-PEOPLE/5.webp',
+      '/img/project-imgs/THATS-PEOPLE/6.webp'
     ]
   },
   {
@@ -89,7 +97,6 @@ exports.PROJECTS = [
     location: 'Mota Varachha, Surat',
     images: [
       '/img/project-imgs/SKY-RISE/1.webp',
-      '/img/project-imgs/SKY-RISE/2.webp',
       '/img/project-imgs/SKY-RISE/3.webp',
       '/img/project-imgs/SKY-RISE/4.webp',
       '/img/project-imgs/SKY-RISE/5.webp',
@@ -115,5 +122,38 @@ exports.PROJECTS = [
       '/img/project-imgs/DEVRAJBHAI-BUNGLOWS/2.webp',
       '/img/project-imgs/DEVRAJBHAI-BUNGLOWS/3.webp'
     ]
+  }
+]
+
+exports.TEAMS = [
+  {
+    name: 'AR. PRASHANT KHUNT',
+    role: 'Architect',
+    qualification: 'Bachelor of Architecture',
+    image: '/img/team/prashant.png'
+  },
+  {
+    name: 'ER. JAY LAKHANI',
+    role: 'Engineer',
+    qualification: 'Msc Structural Engineer',
+    image: '/img/team/jay.png'
+  },
+  {
+    name: 'ID  RUCHITA PATEL',
+    role: 'Interior Designer',
+    qualification: 'Interior Designer',
+    image: '/img/team/ruchita.png'
+  },
+  {
+    name: 'JATIN PATEL',
+    role: 'VR Expert',
+    qualification: 'Virtual Reality',
+    image: '/img/team/jatin.png'
+  },
+  {
+    name: 'ER. DHAVAL BARVALIYA',
+    role: 'Site Supervisor',
+    qualification: 'Site Supervisor',
+    image: '/img/team/dhaval.png'
   }
 ]

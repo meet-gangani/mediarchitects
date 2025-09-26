@@ -4,6 +4,7 @@ import Footer from '../../components/footer'
 import VideoPromo from '../../components/videoPromo'
 import Link from 'next/link'
 import DefaultPageNavigator from '../../components/defaultPageNavigator'
+import { TEAMS } from '@/helper/static'
 
 export const metadata = {
   title: 'About Us - Medi Architect',
@@ -39,7 +40,7 @@ export default function About() {
               <div className="container">
                 <div className="row">
                   <div className="col-md-6 mb-30 animate-box" data-animate-effect="fadeInUp">
-                    <h2 className="section-title">About <span>Medi Architect</span></h2>
+                    <h2 className="section-title">About <span>Medi</span></h2>
                     <p>Architectural firm that believe in creating spaces that seamlessly bind with nature and engage with people on a profound level. Our firm is dedicated to designing interactive and satisfactory architectural pieces that captivate the eye and nourish the soul.</p>
                     <p>Deeply rooted in earth and culture, we feel spaces are those which make one feel tranquil and this evokes the name-'Medi'.</p>
                     <p>Thoughtfully, we thrive to design experiences with serenity rather than spaces.</p>
@@ -62,79 +63,26 @@ export default function About() {
                 </div>
                 <div className="row">
                   <div className="col-md-12 owl-carousel owl-theme">
-                    <div className="item">
-                      <div className="img">
-                        <Link href="/"><img src={'/img/team/prashant.png'} alt=""/></Link>
-                      </div>
-                      <div className="info">
-                        <h6>AR. PRASHANT KHUNT</h6>
-                        <p>Architect</p>
-                        <div className="social valign">
-                          <div className="full-width">
-                            <p>Bachelor of Architecture</p>
-                            <a href="#"><i className="ti-facebook"></i></a>
-                            <a href="#"><i className="ti-twitter-alt"></i></a>
-                            <a href="#"><i className="ti-instagram"></i></a>
+                    {
+                      TEAMS.map((team, index) => {
+                        return <div key={index} className="item">
+                          <div className="img">
+                            {/*<Link href="/about">*/}
+                              <img src={team.image} alt=""/>
+                            {/*</Link>*/}
+                          </div>
+                          <div className="info">
+                            <h6>{team.name}</h6>
+                            <p>{team.role}</p>
+                            <div className="social valign">
+                              <div className="full-width">
+                                <p>{team.qualification}</p>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img">
-                        <Link href="/"><img src={'/img/team/jay.png'} alt=""/></Link>
-                      </div>
-                      <div className="info">
-                        <h6>ER.JAY LAKHANI</h6>
-                        <p>Engineer</p>
-                        <div className="social valign">
-                          <div className="full-width">
-                            <p>Msc STRUCTURAL ENGINEER</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i
-                              className="ti-instagram"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <Link href="/"><img src={'/img/team/ruchita.png'} alt=""/></Link>
-                      <div className="info">
-                        <h6>ID  RUCHITA PATEL</h6>
-                        <p>INTERIOR DESIGNER</p>
-                        <div className="social valign">
-                          <div className="full-width">
-                            <p>INTERIOR DESIGNER</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i className="ti-instagram"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img">
-                        <Link href="/"><img src={'/img/team/jatin.png'} alt=""/></Link>
-                      </div>
-                      <div className="info">
-                        <h6>JATIN PATEL</h6>
-                        <p>VR EXPERT</p>
-                        <div className="social valign">
-                          <div className="full-width">
-                            <p>VIRTUAL REALITY</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i
-                              className="ti-instagram"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="img">
-                        <Link href="/"><img src={'/img/team/dhaval.png'} alt=""/></Link>
-                      </div>
-                      <div className="info">
-                        <h6>ER.DHAVAL BARVALIYA</h6>
-                        <p>SITE SUPERVISOR</p>
-                        <div className="social valign">
-                          <div className="full-width">
-                            <p>SITE SUPERVISOR</p> <a href="#"><i className="ti-facebook"></i></a> <a href="#"><i className="ti-twitter-alt"></i></a> <a href="#"><i className="ti-instagram"></i></a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                      })
+                    }
                   </div>
                 </div>
               </div>

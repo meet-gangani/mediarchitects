@@ -48,7 +48,6 @@ export default function Contact() {
                     <p>At Medi Architects, we believe in creating spaces that seamlessly blend with nature and connect deeply with people. Our practice is dedicated to designing interactive and
                       meaningful architecture that captivates the eye and nourishes the soul. Rooted in earth and culture, our designs evoke tranquility and serenity—creating experiences rather than
                       just spaces.</p>
-                    <p><b>VAT :</b> USA002323065B06</p>
                   </div>
                   <div className="col-md-4 mb-30 animate-box" data-animate-effect="fadeInUp">
                     <p><b>Contact Details</b></p>

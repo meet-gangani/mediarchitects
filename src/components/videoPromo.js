@@ -8,23 +8,24 @@ export default function VideoPromo() {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <div className="vid-area">
-                    <div className="vid-icon">
-                      <a className="play-button vid" href="https://youtu.be/RziCmLzpFNY">
-                        <svg className="circle-fill">
-                          <circle cx="43" cy="43" r="39" stroke="#fff" strokeWidth=".5"></circle>
-                        </svg>
-                        <svg className="circle-track">
-                          <circle cx="43" cy="43" r="39" stroke="none" strokeWidth="1" fill="none"></circle>
-                        </svg>
-                        <span className="polygon">
-                                                <i className="ti-control-play"></i>
-                                            </span> </a>
-                    </div>
-                    <div className="cont mt-15 mb-30">
-                      <h5>View promo video</h5>
-                    </div>
-                  </div>
+                  {/*<div className="vid-area">*/}
+                  {/*  <div className="vid-icon">*/}
+                  {/*    <a className="play-button vid" href="https://youtu.be/RziCmLzpFNY">*/}
+                  {/*      <svg className="circle-fill">*/}
+                  {/*        <circle cx="43" cy="43" r="39" stroke="#fff" strokeWidth=".5"></circle>*/}
+                  {/*      </svg>*/}
+                  {/*      <svg className="circle-track">*/}
+                  {/*        <circle cx="43" cy="43" r="39" stroke="none" strokeWidth="1" fill="none"></circle>*/}
+                  {/*      </svg>*/}
+                  {/*      <span className="polygon">*/}
+                  {/*        <i className="ti-control-play"></i>*/}
+                  {/*      </span>*/}
+                  {/*    </a>*/}
+                  {/*  </div>*/}
+                  {/*  <div className="cont mt-15 mb-30">*/}
+                  {/*    <h5>View promo video</h5>*/}
+                  {/*  </div>*/}
+                  {/*</div>*/}
                 </div>
                 <div className="col-md-5 offset-md-1">
                   <div className="testimonials-box animate-box" data-animate-effect="fadeInUp">

@@ -1,13 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
-import { MdOutlineAddIcCall, MdOutlineMail } from 'react-icons/md'
+import { STATIC_DATA } from '@/helper/static'
+// import { MdOutlineAddIcCall, MdOutlineMail } from 'react-icons/md'
 
 export default function Sidebar() {
   return (
       <aside id="bauen-aside">
         <div className="bauen-logo">
           <Link href="/"><img src={'/img/logo.png'} className="logo-img rounded-3" alt=""/>
-            <h2>Medi Architect<span>INNOVATE DESIGN</span></h2>
+            <h2>MEDI<span>ARCHITECT</span></h2>
           </Link>
         </div>
         <nav className="bauen-main-menu">
@@ -21,9 +22,9 @@ export default function Sidebar() {
         </nav>
         <div className="bauen-footer">
           <ul>
-            <li><a href="#"><MdOutlineAddIcCall size={16}/></a></li>
-            <li><a href="#"><MdOutlineMail size={18}/></a></li>
-            <li> <a href="https://www.instagram.com/medi_architects_" target="_blank" rel="noopener noreferrer"><i className="ti-instagram"/></a></li>
+            <li><Link href={STATIC_DATA.PHONE_REDIRECTION} target="_blank" rel="noopener noreferrer"><i className="ti-mobile"/></Link></li>
+            <li><Link href={STATIC_DATA.EMAIL_REDIRECTION} target="_blank" rel="noopener noreferrer"><i className="ti-email"/></Link></li>
+            <li><a href="https://www.instagram.com/medi_architects_" target="_blank" rel="noopener noreferrer"><i className="ti-instagram"/></a></li>
           </ul>
         </div>
       </aside>

@@ -1,10 +1,9 @@
 import React from 'react'
 import { STATIC_DATA } from '../helper/static'
 import Link from 'next/link'
-import { MdOutlineAddIcCall } from "react-icons/md";
-import { MdOutlineMail } from "react-icons/md";
 
 export default function Footer() {
+
   return (
       <footer className="main-footer dark">
         <div className="container">
@@ -45,8 +44,8 @@ export default function Footer() {
               </div>
               <div className="col-md-4 abot">
                 <div className="social-icon">
-                  <Link href="#"><MdOutlineAddIcCall size={14}/></Link>
-                  <Link href="#"><MdOutlineMail size={16}/></Link>
+                  <Link href={STATIC_DATA.PHONE_REDIRECTION} target="_blank" rel="noopener noreferrer"><i className="ti-mobile"/></Link>
+                  <Link href={STATIC_DATA.EMAIL_REDIRECTION} target="_blank" rel="noopener noreferrer"><i className="ti-email"/></Link>
                   <Link href="https://www.instagram.com/medi_architects_" target="_blank" rel="noopener noreferrer"><i className="ti-instagram"/></Link>
                 </div>
               </div>

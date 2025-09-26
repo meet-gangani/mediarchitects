@@ -14,8 +14,6 @@ export default function projects() {
         <a href="#" className="js-bauen-nav-toggle bauen-nav-toggle"><i></i></a>
         <Sidebar/>
         <div id="bauen-main">
-          <Sidebar/>
-          <h1> hello </h1>
           <VideoPromo/>
           <Footer/>
         </div>

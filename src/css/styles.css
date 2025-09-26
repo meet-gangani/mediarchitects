@@ -390,8 +390,8 @@ blockquote cite:before {
 .v-middle {
   position: absolute;
   width: 100%;
-  top: 75%;
-  left: 0;
+  top: 80%;
+  left: 10%;
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
 }
@@ -573,7 +573,7 @@ blockquote cite:before {
 
 #bauen-aside .bauen-logo h2 {
   font-family: 'Oswald', sans-serif;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 400;
   display: block;
   width: 100%;
@@ -586,7 +586,7 @@ blockquote cite:before {
 #bauen-aside .bauen-logo span {
   display: block;
   font-family: 'Oswald', sans-serif;
-  font-size: 12px;
+  font-size: 20px;
   color: #777;
   font-weight: 300;
   letter-spacing: 4px;
@@ -598,7 +598,7 @@ blockquote cite:before {
 }
 
 #bauen-aside .bauen-logo .logo-img {
-  width: 75px;
+  width: 125px;
   margin-bottom: 5px;
 }
 
@@ -677,7 +677,7 @@ blockquote cite:before {
 #bauen-aside .bauen-main-menu > ul > li > a:hover,
 #bauen-aside .bauen-main-menu > ul > li.active > a,
 #bauen-aside .bauen-main-menu > ul > li.open > a {
-  color: #b19777;
+  color: #b19777 !important;
 }
 
 #bauen-aside .bauen-main-menu > ul > li.open > a {
@@ -823,6 +823,11 @@ blockquote cite:before {
   color: #777;
   font-size: 13px;
 }
+
+#bauen-aside .bauen-footer ul li a i {
+  font-size: medium;
+}
+
 
 #bauen-aside .bauen-footer ul li a:hover,
 #bauen-aside .bauen-footer ul li a:active,
@@ -4472,6 +4477,10 @@ hr.border-2 {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
+}
+
+.main-footer .abot .social-icon a i {
+  font-size: medium;
 }
 
 .main-footer .abot .social-icon a:hover {
