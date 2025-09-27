@@ -340,8 +340,8 @@ blockquote cite:before {
 
 
 .container {
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
 }
 
 .o-hidden {
@@ -397,7 +397,7 @@ blockquote cite:before {
 }
 
 .js .animate-box {
-  opacity: 0;
+  /*opacity: 0;*/
 }
 
 .map {
@@ -1062,7 +1062,7 @@ body.offcanvason .bauen-nav-toggle {
 }
 
 .section-title span {
-  color: #b19777;
+  color: #b19777 !important;
 }
 
 .section-title2 {

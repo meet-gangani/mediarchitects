@@ -38,7 +38,7 @@ export default function Service() {
                 <div className="content-lines"></div>
               </div>
             </section>
-            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: "url('/img/banner.webp')" }}></section>
+            <section className="banner-header banner-img valign bg-img bg-fixed" data-overlay-darkgray="5" style={{ backgroundImage: "url('/img/banner.webp')" }}/>
             <section className="services section-padding2">
               <div className="container">
                 <div className="row">
