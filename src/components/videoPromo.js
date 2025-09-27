@@ -1,6 +1,26 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useState } from 'react'
 
 export default function VideoPromo() {
+  const [ reviews, setReviews ] = useState([])
+
+  const GOOGLE_REVIEW_END_POINT = 'https://data.accentapi.com/feed/25603738.json?nocache=1758894791650'
+
+  useEffect(() => {
+    fetch('https://data.accentapi.com/feed/25603738.json?nocache=1758894791650', {
+      method: 'GET',
+      redirect: 'follow'
+    }).then((response) => response.json()).then((result) => {
+
+      const filterReviews = result?.reviews
+      ?.filter((review) => review.review_text) // keep only reviews with text
+          ?.sort((a, b) => b.review_text.length - a.review_text.length) // sort by text length (desc)
+          ?.slice(0, 7); // take top 7
+
+      setReviews(filterReviews)
+    }).catch((error) => console.error(error))
+  }, [])
+
   return (
       <>
         <section className="testimonials">
@@ -30,40 +50,32 @@ export default function VideoPromo() {
                 <div className="col-md-5 offset-md-1">
                   <div className="testimonials-box animate-box" data-animate-effect="fadeInUp">
                     <div className="head-box">
-                      <h4>What Client's Say?</h4>
+                      <h4>What Client&#39;s Say?</h4>
                     </div>
                     <div className="owl-carousel owl-theme">
-                      <div className="item"><span className="quote"><img src={'/img/quot.png'} alt=""/></span>
-                        <p>Architect dapibus augue metus the nec feugiat erat hendrerit nec. Duis ve ante the lemon sanleo nec feugiat erat hendrerit necuis ve ante.</p>
-                        <div className="info">
-                          <div className="author-img"><img src={'/img/team/1.jpg'} alt=""/></div>
-                          <div className="cont">
-                            <h6>Jason Brown</h6> <span>Crowne Plaza Owner</span>
+                      {
+                        reviews.map((review, index) => {
+                          return <div key={index} className="item">
+                        <span className="quote">
+                          <img src={'/img/quot.png'} alt=""/>
+                        </span>
+                            <p dangerouslySetInnerHTML={{ __html: review?.review_text || '' }}></p>
+                            <div className="info">
+                              <div className="author-img">
+                                <img src={review?.reviewer_photo_link} alt=""/>
+                              </div>
+                              <div className="cont">
+                                <h6>{review?.reviewer_name}</h6>
+                                <span>
+                                   {Array.from({ length: review?.rating || 0 }).map((_, i) => (
+                                       <i key={i} className="ti-star"></i>
+                                   ))}
+                                </span>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div className="item"> <span className="quote">
-                                                <img src={'/img/quot.png'} alt=""/>
-                                            </span>
-                        <p>Interior dapibus augue metus the nec feugiat erat hendrerit nec. Duis ve ante the lemon sanleo nec feugiat erat hendrerit necuis ve ante.</p>
-                        <div className="info">
-                          <div className="author-img"><img src={'/img/team/2.jpg'} alt=""/></div>
-                          <div className="cont">
-                            <h6>Emily White</h6> <span>Armada Owner</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="item"> <span className="quote">
-                                                <img src={'/img/quot.png'} alt=""/>
-                                            </span>
-                        <p>Urban dapibus augue metus the nec feugiat erat hendrerit nec. Duis ve ante the lemon sanleo nec feugiat erat hendrerit necuis ve ante.</p>
-                        <div className="info">
-                          <div className="author-img"><img src={'/img/team/4.jpg'} alt=""/></div>
-                          <div className="cont">
-                            <h6>Jesica Smith</h6> <span>Alsa Manager</span>
-                          </div>
-                        </div>
-                      </div>
+                        })
+                      }
                     </div>
                   </div>
                 </div>

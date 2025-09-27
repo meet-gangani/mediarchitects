@@ -83,7 +83,10 @@ export default function Home() {
                 </div>
                 <div className="row">
                   <div className="col-md-12">
-                    <div className="owl-carousel owl-theme" style={{height: '350px'}}>
+                    <div className="owl-carousel owl-theme" style={{
+                      height: '350px',
+                      // display: 'flex'
+                    }}>
                       {
                         PROJECTS.map((project, index) => {
                           return (
