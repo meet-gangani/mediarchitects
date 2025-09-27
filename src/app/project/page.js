@@ -49,11 +49,11 @@ export default function projects() {
                       <div className="portfolio-item-wrapp">
                         <div className="portfolio-item">
                           <div className="project-masonry-wrapper">
-                            <a href="cotton-house.html" className="project-masonry-item-img-link">
+                            <a href="/project/2" className="project-masonry-item-img-link">
                               <img src="/img/project-imgs/CK-BUNGLOWS/1.webp" alt=""/>
                               <div className="project-masonry-item-img"></div>
                               <div className="project-masonry-item-content">
-                                <h4 className="project-masonry-item-title">Cotton House</h4>
+                                <h4 className="project-masonry-item-title">Mr.Ck bunglow</h4>
                                 <div className="project-masonry-item-category">Interior</div>
                               </div>
                             </a>
@@ -64,11 +64,11 @@ export default function projects() {
                       <div className="portfolio-item-wrapp">
                         <div className="portfolio-item">
                           <div className="project-masonry-wrapper">
-                            <a href="stonya-villa.html" className="project-masonry-item-img-link">
+                            <a href="/project/6" className="project-masonry-item-img-link">
                               <img src="/img/project-imgs/DEVRAJBHAI-BUNGLOWS/1.webp" alt=""/>
                               <div className="project-masonry-item-img"></div>
                               <div className="project-masonry-item-content">
-                                <h4 className="project-masonry-item-title">Stonya Villa</h4>
+                                <h4 className="project-masonry-item-title">Mr.Devrajbhai Bunglows</h4>
                                 <div className="project-masonry-item-category">Urban</div>
                               </div>
                             </a>
@@ -79,11 +79,11 @@ export default function projects() {
                       <div className="portfolio-item-wrapp">
                         <div className="portfolio-item">
                           <div className="project-masonry-wrapper">
-                            <a href="prime-hotel.html" className="project-masonry-item-img-link">
+                            <a href="/project/4" className="project-masonry-item-img-link">
                               <img src="/img/project-imgs/KRISHANA-RESIDENCY/1.webp" alt=""/>
                               <div className="project-masonry-item-img"></div>
                               <div className="project-masonry-item-content">
-                                <h4 className="project-masonry-item-title">Prime Hotel</h4>
+                                <h4 className="project-masonry-item-title">krishna residency</h4>
                                 <div className="project-masonry-item-category">Interior</div>
                               </div>
                             </a>
@@ -96,11 +96,11 @@ export default function projects() {
                       <div className="portfolio-item-wrapp">
                         <div className="portfolio-item">
                           <div className="project-masonry-wrapper">
-                            <a href="armada-center.html" className="project-masonry-item-img-link">
+                            <a href="/project/5" className="project-masonry-item-img-link">
                               <img src="/img/project-imgs/SKY-RISE/1.webp" alt=""/>
                               <div className="project-masonry-item-img"></div>
                               <div className="project-masonry-item-content">
-                                <h4 className="project-masonry-item-title">Geometric Addo</h4>
+                                <h4 className="project-masonry-item-title">sky rise Residence</h4>
                                 <div className="project-masonry-item-category">Urban</div>
                               </div>
                             </a>
@@ -111,11 +111,11 @@ export default function projects() {
                       <div className="portfolio-item-wrapp">
                         <div className="portfolio-item">
                           <div className="project-masonry-wrapper">
-                            <a href="armada-center.html" className="project-masonry-item-img-link">
+                            <a href="/project/3" className="project-masonry-item-img-link">
                               <img src="/img/project-imgs/THATS-PEOPLE/1.webp" alt=""/>
                               <div className="project-masonry-item-img"></div>
                               <div className="project-masonry-item-content">
-                                <h4 className="project-masonry-item-title">Armada Center</h4>
+                                <h4 className="project-masonry-item-title">that's people</h4>
                                 <div className="project-masonry-item-category">Exterior</div>
                               </div>
                             </a>
@@ -126,11 +126,11 @@ export default function projects() {
                       <div className="portfolio-item-wrapp">
                         <div className="portfolio-item">
                           <div className="project-masonry-wrapper">
-                            <a href="stonya-villa.html" className="project-masonry-item-img-link">
+                            <a href="/project/1" className="project-masonry-item-img-link">
                               <img src="/img/project-imgs/VIKASBHAI/1.webp" alt=""/>
                               <div className="project-masonry-item-img"></div>
                               <div className="project-masonry-item-content">
-                                <h4 className="project-masonry-item-title">Twins Office</h4>
+                                <h4 className="project-masonry-item-title">ladvi bunglow</h4>
                                 <div className="project-masonry-item-category">Interior</div>
                               </div>
                             </a>
