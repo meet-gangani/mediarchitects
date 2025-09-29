@@ -9,7 +9,6 @@ export const ContactUs = () => {
 
   const [ contactInfo, setContactInfo ] = useState({
     name: '',
-    email: '',
     phone: '',
     subject: '',
     message: ''
@@ -19,18 +18,20 @@ export const ContactUs = () => {
   const handleGmailRedirect = (e) => {
     e.preventDefault()
 
-    const { email, subject, message, phone, name } = contactInfo
+    const { subject, message, phone, name } = contactInfo
 
-    if (!email || !subject || !message || !phone || !name) {
+    if ( !subject || !message || !phone || !name) {
       return setIsFieldEmpty(true)
     }
 
-    const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`
+    const bodyText = `${message}\n\n\nRegards,\n${name}\n${phone}`
+
+    const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(STATIC_DATA.EMAIL)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(bodyText)}`
+
     window.open(gmailURL, '_blank')
 
     setContactInfo({
       name: '',
-      email: '',
       phone: '',
       subject: '',
       message: ''
@@ -108,17 +109,7 @@ export const ContactUs = () => {
                               onChange={(e) => handleInputChange(e, 'name')}
                           />
                         </div>
-                        <div className="col-md-6 form-group">
-                          <input
-                              name="email"
-                              type="email"
-                              placeholder="Your Email *"
-                              required
-                              value={contactInfo?.email}
-                              onChange={(e) => handleInputChange(e, 'email')}
-                          />
-                        </div>
-                        <div className="col-md-6 form-group">
+                        <div className="col-md-12 form-group">
                           <input
                               name="phone"
                               type="text"
@@ -150,7 +141,7 @@ export const ContactUs = () => {
                           />
                         </div>
                         {
-                          (!contactInfo?.name || !contactInfo?.email || !contactInfo?.phone || !contactInfo?.subject || !contactInfo?.message) && isFieldsEmpty ?
+                          (!contactInfo?.name || !contactInfo?.phone || !contactInfo?.subject || !contactInfo?.message) && isFieldsEmpty ?
                               <p style={{ color: 'red'}}>Please fill up the required fields.</p> :
                               null
                         }

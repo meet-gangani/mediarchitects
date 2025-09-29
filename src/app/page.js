@@ -84,26 +84,35 @@ export default function Home() {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="owl-carousel owl-theme" style={{
-                      height: '350px',
-                      // display: 'flex'
+                      display: 'grid',
+                      gridTemplateColumns: '1fr 1fr',
+                      alignItems: 'center',
+                      columnGap: '30px',
+                      width: '100%'
                     }}>
                       {
                         PROJECTS.map((project, index) => {
                           return (
-                              <div key={index} className="item" style={{height: '350px'}}>
-                                <div className="position-re o-hidden" style={{height: '100%'}}>
-                                  <img style={{height: '100%', objectFit: 'cover'}} width={300} src={`${project?.images[1]}`} alt=""/></div>
+                              <div key={index} className="item" style={{ height: '350px', width: '100%' }}>
+                                <div className="position-re o-hidden" style={{ height: '100%', width: '100%' }}>
+                                  <img
+                                      style={{ height: '100%', width: '100%', objectFit: 'cover' }}
+                                      src={`${project?.images[1]}`}
+                                      alt=""
+                                  />
+                                </div>
                                 <div className="con">
                                   <h6><Link href={`/project/${project?.id}`}>Interior</Link></h6>
-                                  <h5><Link href={`/project/${project?.id}`}>{project?.name}</Link></h5>
+                                  <h5><Link href={`/project/${project?.id}`}>{project?.projectName}</Link></h5>
                                   <div className="line"></div>
                                   <Link href={`/project/${project?.id}`}><i className="ti-arrow-right"></i></Link>
                                 </div>
                               </div>
-                          )
+                          );
                         })
                       }
                     </div>
+
                   </div>
                 </div>
               </div>

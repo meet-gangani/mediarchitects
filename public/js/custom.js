@@ -221,7 +221,7 @@ $(function() {
     });
     
     //  YouTubePopUp
-    $("a.vid").YouTubePopUp();
+    // $("a.vid").YouTubePopUp();
     
     // Testimonials owlCarousel
     $('.testimonials .owl-carousel').owlCarousel({

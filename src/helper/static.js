@@ -84,7 +84,6 @@ exports.PROJECTS = [
       '/img/project-imgs/KRISHANA-RESIDENCY/7.webp'
     ]
   },
-
   {
     id: 5,
     name: 'Sky Rise Residence',
@@ -106,7 +105,6 @@ exports.PROJECTS = [
       '/img/project-imgs/SKY-RISE/9.webp'
     ]
   },
-
   {
     id: 6,
     name: 'Mr. Devrajbhai Bunglows',
