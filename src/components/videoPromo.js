@@ -6,22 +6,39 @@ export default function VideoPromo() {
 
   const GOOGLE_REVIEW_END_POINT = 'https://data.accentapi.com/feed/25603738.json?nocache=1758894791650'
 
+  const REVIEW_KEY = 'Reviews'
+  const REVIEW_TIMESTAMP_KEY = "Reviews-TimeStamp";
+  const EXPIRY_TIME = 24 * 60 * 60 * 1000;
+
   useEffect(() => {
+    const storedReviews = localStorage.getItem(REVIEW_KEY)
+    const storedTime = localStorage.getItem(REVIEW_TIMESTAMP_KEY);
 
+    if (storedReviews && storedTime) {
+      const isExpired = Date.now() - Number(storedTime) > EXPIRY_TIME;
 
-    fetch(GOOGLE_REVIEW_END_POINT, {
-      method: 'GET',
-      redirect: 'follow'
-    }).then((response) => response.json()).then((result) => {
+      if (!isExpired) {
+        setReviews(JSON.parse(storedReviews));
+        return; // stop here, no API call
+      }
+    }
+      fetch(GOOGLE_REVIEW_END_POINT, {
+        method: 'GET',
+        redirect: 'follow'
+      })
+      .then((response) => response.json()).then((result) => {
 
-      const filterReviews = result?.reviews
-      ?.filter((review) => review.review_text) // keep only reviews with text
-          ?.sort((a, b) => b.review_text.length - a.review_text.length) // sort by text length (desc)
-          ?.slice(0, 7); // take top 7
+        const filterReviews = result?.reviews?.filter((review) => review.review_text) // keep only reviews with text
+            ?.sort((a, b) => b.review_text.length - a.review_text.length) // sort by text length (desc)
+            ?.slice(0, 7)
 
-
-      setReviews(filterReviews)
-    }).catch((error) => console.error(error))
+        if (filterReviews?.length) {
+          localStorage.setItem(REVIEW_KEY, JSON.stringify(filterReviews));
+          localStorage.setItem(REVIEW_TIMESTAMP_KEY, Date.now().toString()); 
+          setReviews(filterReviews);
+        }
+      })
+      .catch((error) => console.error(error))
   }, [])
 
   return (
