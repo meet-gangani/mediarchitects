@@ -68,7 +68,7 @@ export default function Home() {
                   <div className="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <div className="about-img">
                       <div className="img"><img src="/img/about.webp" height={300} className="img-fluid" alt=""/></div>
-                      <div className="about-img-2 about-buro">Sky Rise Residence</div>
+                      <div className="about-img-2 about-buro"> Ladvi Bunglow</div>
                     </div>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function Home() {
                       <Link href="/"> <img src={'/img/icons/icon-1.png'} alt=""/>
                         <h5>Architecture</h5>
                         <div className="line"></div>
-                        <p>Architecture bibendum eros eget lacus the vulputate sit amet vehicuta nibhen ulicera in the vitae miss.</p>
+                        <p>"Crafting soulful architecture that blends seamlessly with nature and human connection, we design spaces that inspire serenity and belonging."</p>
                         <div className="numb">01</div>
                       </Link>
                     </div>
@@ -138,9 +138,9 @@ export default function Home() {
                   <div className="col-md-4">
                     <div className="item">
                       <Link href="/"> <img src={'/img/icons/icon-2.png'} alt=""/>
-                        <h5>Interior Design</h5>
+                        <h5>Interior</h5>
                         <div className="line"></div>
-                        <p>Architecture bibendum eros eget lacus the vulputate sit amet vehicuta nibhen ulicera in the vitae miss.</p>
+                        <p>"Our interiors go beyond aesthetics—shaping tranquil, interactive spaces that nurture the soul and inspire everyday living."</p>
                         <div className="numb">02</div>
                       </Link>
                     </div>
@@ -150,7 +150,7 @@ export default function Home() {
                       <Link href="/"> <img src={'/img/icons/icon-3.png'} alt=""/>
                         <h5>Urban Design</h5>
                         <div className="line"></div>
-                        <p>Architecture bibendum eros eget lacus the vulputate sit amet vehicuta nibhen ulicera in the vitae miss.</p>
+                        <p>"Shaping urban spaces that harmonize with nature, culture, and community, we design cities that breathe and belong"</p>
                         <div className="numb">03</div>
                       </Link>
                     </div>

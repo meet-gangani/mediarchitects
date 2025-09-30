@@ -48,7 +48,7 @@ export default function About() {
                   <div className="col-md-6 animate-box" data-animate-effect="fadeInUp">
                     <div className="about-img">
                       <div className="img"><img src={'/img/about.webp'} className="img-fluid" alt=""/></div>
-                      <div className="about-img-2 about-buro">Sky Rise Residence</div>
+                      <div className="about-img-2 about-buro"> Ladvi Bunglow</div>
                     </div>
                   </div>
                 </div>
