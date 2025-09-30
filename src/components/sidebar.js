@@ -1,9 +1,16 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from 'react'
 import { STATIC_DATA } from "@/helper/static";
 
 export default function Sidebar() {
+  const [active, setActive] = useState("/");
+
+  useEffect(() => {
+    setActive(window.location.pathname);
+  }, []);
+
   function handleRefresh(path) {
+    setActive(path);
     window.location.href = path;
   }
 
@@ -18,19 +25,19 @@ export default function Sidebar() {
 
         <nav className="bauen-main-menu">
           <ul>
-            <li className="active">
+            <li className={active === "/" ? "active" : ""}>
               <a onClick={() => handleRefresh("/")}>Home</a>
             </li>
-            <li>
+            <li className={active === "/about" ? "active" : ""}>
               <a onClick={() => handleRefresh("/about")}>About</a>
             </li>
-            <li className="bauen-sub">
+            <li className={active === "/service" ? "active" : ""}>
               <a onClick={() => handleRefresh("/service")}>Services</a>
             </li>
-            <li>
+            <li className={active === "/project" ? "active" : ""}>
               <a onClick={() => handleRefresh("/project")}>Projects</a>
             </li>
-            <li>
+            <li className={active === "/contact" ? "active" : ""}>
               <a onClick={() => handleRefresh("/contact")}>Contact</a>
             </li>
           </ul>
