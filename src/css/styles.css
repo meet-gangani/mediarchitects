@@ -546,6 +546,10 @@ blockquote cite:before {
   scrollbar-width: none;
 }
 
+.bauen-main-menu ul li a {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1200px) {
   #bauen-aside {
     width: 30%;

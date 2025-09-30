@@ -7,7 +7,9 @@ export default function VideoPromo() {
   const GOOGLE_REVIEW_END_POINT = 'https://data.accentapi.com/feed/25603738.json?nocache=1758894791650'
 
   useEffect(() => {
-    fetch('https://data.accentapi.com/feed/25603738.json?nocache=1758894791650', {
+
+
+    fetch(GOOGLE_REVIEW_END_POINT, {
       method: 'GET',
       redirect: 'follow'
     }).then((response) => response.json()).then((result) => {
@@ -16,6 +18,7 @@ export default function VideoPromo() {
       ?.filter((review) => review.review_text) // keep only reviews with text
           ?.sort((a, b) => b.review_text.length - a.review_text.length) // sort by text length (desc)
           ?.slice(0, 7); // take top 7
+
 
       setReviews(filterReviews)
     }).catch((error) => console.error(error))
@@ -59,7 +62,7 @@ export default function VideoPromo() {
                         <span className="quote">
                           <img src={'/img/quot.png'} alt=""/>
                         </span>
-                            <p dangerouslySetInnerHTML={{ __html: review?.review_text || '' }}></p>
+                            <p dangerouslySetInnerHTML={{ __html: review?.review_text || '' }}/>
                             <div className="info">
                               <div className="author-img">
                                 <img src={review?.reviewer_photo_link} alt=""/>
@@ -68,7 +71,7 @@ export default function VideoPromo() {
                                 <h6>{review?.reviewer_name}</h6>
                                 <span>
                                    {Array.from({ length: review?.rating || 0 }).map((_, i) => (
-                                       <i key={i} className="ti-star"></i>
+                                       <i key={i} className="ti-star"/>
                                    ))}
                                 </span>
                               </div>

@@ -55,13 +55,6 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "Merging master",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/img/slider" />
