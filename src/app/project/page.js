@@ -15,6 +15,7 @@ export default function projects() {
               <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
             </svg>
           </div>
+          <a href="#" className="js-bauen-nav-toggle bauen-nav-toggle"><i></i></a>
           <Sidebar/>
           <div id="bauen-main">
             <div className="content-wrapper">
